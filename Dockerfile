@@ -1,5 +1,5 @@
 FROM debian:sid
-
+EXPOSE 80
 RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
